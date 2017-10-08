@@ -2,5 +2,5 @@
 
 Any questions about this research? 
 
-Contact the author: hegler [AT] gmail [DOT] com
+Contact the author: hegler [{A_T}] gmail [{D_O_T}] com
 
