@@ -1,0 +1,58 @@
+body {
+    background-color: #c0c0c0;
+	font-family: arial;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+	color: #303060;
+	#font-weight: bold;
+}
+
+#bordertab {
+    background-color: #ffffff;
+}
+
+#formtitle {
+    font-size: 22px;
+	color: #000060;
+	font-weight: bold;
+}
+
+#description {
+    font-size: 14px;
+	color: #303060;
+	#font-weight: bold;
+}
+
+li {
+    font-size: 14px;
+	color: #303060;
+	#font-weight: bold;
+}
+
+#question {
+    font-size: 14px;
+}
+
+#sentence {
+    font-size: 14px;
+	font-weight: bold;
+    background-color: #d0d0d0;
+}
+
+#answer {
+    font-size: 11px;
+	font-weight: bold;
+}
+
+#submit {
+    font-size: 16px;
+	color: #000060;
+	font-weight: bold;
+}

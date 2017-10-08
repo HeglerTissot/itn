@@ -1,0 +1,40 @@
+﻿<html>
+<title>Timex Quiz</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<head>
+<link rel="stylesheet" href="quiz.css">
+<script>
+function validateForm() {
+  if (document.quiz.day.value == "") { alert("Selecione uma das alternativas antes de continuar."); return false; }
+  return true;
+}
+</script>
+</head>
+<body>
+<table id="bordertab" align="center" width="90%" border="1" cellpadding="10" cellspacing="0">
+<tr><td id="formtitle" align="center">Avalia&ccedil;&atilde;o Cognitiva sobre Express&otilde;es Temporais Imprecisas</td></tr>
+</table>
+<br>
+<form id="quiz" name="quiz" method="POST" action="form.php" onsubmit="JavaScript:return validateForm()">
+<table id="bordertab" align="center" width="90%" border="1" cellpadding="10" cellspacing="0">
+<tr><td id="description" align="left">
+<br>
+<b>Qual o dia do m&ecirc;s do seu anivers&aacute;rio?</b>
+<br>
+<br> <input type="radio" name="day" value="A"> 01 a 06
+<br>
+<br> <input type="radio" name="day" value="B"> 07 a 12
+<br>
+<br> <input type="radio" name="day" value="C"> 13 a 18
+<br>
+<br> <input type="radio" name="day" value="D"> 19 a 24
+<br>
+<br> <input type="radio" name="day" value="E"> 25 a 31
+<br>&nbsp;
+<br><input id="submit" type="submit" value=" Continuar... ">
+</td></tr>
+</table>
+</form>
+</body>
+</html>
+

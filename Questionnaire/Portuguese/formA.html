@@ -1,0 +1,1503 @@
+﻿<html>
+<title>Questionário</title>
+<head>
+<link rel="stylesheet" href="../quiz.css">
+<script>
+function validateForm() {
+  if (document.quiz.E018.value == "") { alert("Questão 1. (E018) não foi respondida."); return false; }
+  if (document.quiz.E045.value == "") { alert("Questão 2. (E045) não foi respondida."); return false; }
+  if (document.quiz.E028.value == "") { alert("Questão 3. (E028) não foi respondida."); return false; }
+  if (document.quiz.E106.value == "") { alert("Questão 4. (E106) não foi respondida."); return false; }
+  if (document.quiz.E120.value == "") { alert("Questão 5. (E120) não foi respondida."); return false; }
+  if (document.quiz.E124.value == "") { alert("Questão 6. (E124) não foi respondida."); return false; }
+  if (document.quiz.E044.value == "") { alert("Questão 7. (E044) não foi respondida."); return false; }
+  if (document.quiz.E114.value == "") { alert("Questão 8. (E114) não foi respondida."); return false; }
+  if (document.quiz.E023.value == "") { alert("Questão 9. (E023) não foi respondida."); return false; }
+  if (document.quiz.E004.value == "") { alert("Questão 10. (E004) não foi respondida."); return false; }
+  if (document.quiz.E047.value == "") { alert("Questão 11. (E047) não foi respondida."); return false; }
+  if (document.quiz.E034.value == "") { alert("Questão 12. (E034) não foi respondida."); return false; }
+  if (document.quiz.E079.value == "") { alert("Questão 13. (E079) não foi respondida."); return false; }
+  if (document.quiz.E014.value == "") { alert("Questão 14. (E014) não foi respondida."); return false; }
+  if (document.quiz.E100.value == "") { alert("Questão 15. (E100) não foi respondida."); return false; }
+  if (document.quiz.E029.value == "") { alert("Questão 16. (E029) não foi respondida."); return false; }
+  if (document.quiz.E025.value == "") { alert("Questão 17. (E025) não foi respondida."); return false; }
+  if (document.quiz.E039.value == "") { alert("Questão 18. (E039) não foi respondida."); return false; }
+  if (document.quiz.E009.value == "") { alert("Questão 19. (E009) não foi respondida."); return false; }
+  if (document.quiz.E021.value == "") { alert("Questão 20. (E021) não foi respondida."); return false; }
+  if (document.quiz.E073.value == "") { alert("Questão 21. (E073) não foi respondida."); return false; }
+  if (document.quiz.E058.value == "") { alert("Questão 22. (E058) não foi respondida."); return false; }
+  if (document.quiz.E085.value == "") { alert("Questão 23. (E085) não foi respondida."); return false; }
+  if (document.quiz.E102.value == "") { alert("Questão 24. (E102) não foi respondida."); return false; }
+  if (document.quiz.E067.value == "") { alert("Questão 25. (E067) não foi respondida."); return false; }
+  return true;
+}
+</script>
+</head>
+<body>
+<table id="bordertab" align="center" width="90%" border="1" cellpadding="10" cellspacing="0">
+<tr><td id="formtitle" align="center">Avaliação Cognitiva sobre Expressões Temporais Imprecisas</td></tr>
+</table>
+<br>
+<table id="bordertab" align="center" width="90%" border="1" cellpadding="10" cellspacing="0">
+<tr><td id="description" align="left">
+<b>Objetivo</b>
+<br>
+<br>Avaliar a percepção sobre uma quantidade de tempo representada por um valor impreciso, por exemplo, quanto tempo que as pessoas imaginam quando se deparam com expressões do tipo "muitos dias", "mais do que 1 hora", "durante meses".
+<br>
+</td></tr>
+</table>
+<br>
+<table id="bordertab" align="center" width="90%" border="1" cellpadding="10" cellspacing="0">
+<tr><td id="description" align="left">
+<b>Instruções</b>
+<br>
+<br>As perguntas contidas neste questionário foram elaboradas com bases em documentos médicos reais.
+Os textos, entretanto, foram alterados e adaptados para evitar que fosse possível qualquer tipo de identificação dos respectivos pacientes.
+Algumas sentenças podem conter erros ortográficos, gramaticais ou de concordância, pois foram extraídas tais como estavam nos documentos originais.
+<br>
+<ul>
+<li>Para cada questão é apresentado um conjunto de 3 a 5 pequenas sentenças extraídas de um relatório médico.
+<li>As sequências estão na mesma ordem que aparecem no texto, mas não necessariamente estão diretamente conectadas no texto original, podendo algum texto entre essas sentenças ter sido removido.
+<li>Cada sentença pode ou não apresentar uma expressão temporal precisa ou imprecisa.
+<li>A expressão temporal que deve ser avaliada em cada questão aparecerá sublinhada.
+<li><b>Cada questão deve ser respondida com a quantidade de tempo que você considera sua primeira percepção, logo após ter lido as sentenças, para a expressão que está sendo avaliada.</b>
+</ul>
+<br><font color=red>*** Por favor, somente uma opção pode ser escolhida para cada uma das questões. Todas as questões devem ser respondidas.</font>
+</td></tr>
+</table>
+<br>
+<table id="bordertab" align="center" width="90%" border="1" cellpadding="10" cellspacing="0">
+<tr><td id="description" align="left">
+<b>Questões</b>
+</td></tr>
+</table>
+<form id="quiz" name="quiz" method="POST" action="../submit.php" onsubmit="javascript:return validateForm();">
+<table id="bordertab" align="center" width="90%" border="1" cellpadding="10" cellspacing="0">
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+1. 
+(E018) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... última reclamação no ano passado ... usou Zolpiden por <u>cerca de 15 dias</u> e melhorou ... terminou um relacionamento de 4 anos recentemente ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>dias</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="right">[menos que 5 dias]</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12</td>
+<td nowrap align="center">13</td>
+<td nowrap align="center">14</td>
+<td nowrap align="center">16</td>
+<td nowrap align="center">17</td>
+<td nowrap align="center">18</td>
+<td nowrap align="center">19</td>
+<td nowrap align="center">20</td>
+<td nowrap align="center">21</td>
+<td nowrap align="center">22</td>
+<td nowrap align="center">23</td>
+<td nowrap align="center">24</td>
+<td nowrap align="center">25</td>
+<td nowrap align="left">[mais que 25 dias]</td>
+</tr>
+<tr>
+<td nowrap align="right"><input type="radio" name="E018" value="-1"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="12"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="13"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="14"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="16"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="17"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="18"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="19"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="20"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="21"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="22"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="23"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="24"></td>
+<td nowrap align="center"><input type="radio" name="E018" value="25"></td>
+<td nowrap align="left"><input type="radio" name="E018" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+2. 
+(E045) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... refere depressão há mais de 15 anos e que usa anti-depressivos ... consegue ficar <u>poucos dias</u> c/ dose menor da medicação ... humor fica oscilando, hoje reclamou de desconforto ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>dias</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">0</td>
+<td nowrap align="center">1</td>
+<td nowrap align="center">2</td>
+<td nowrap align="center">3</td>
+<td nowrap align="center">4</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12-15</td>
+<td nowrap align="center">16-20</td>
+<td nowrap align="center">21-25</td>
+<td nowrap align="center">26-30</td>
+<td nowrap align="center">31-45</td>
+<td nowrap align="center">46-50</td>
+<td nowrap align="center">51-60</td>
+<td nowrap align="center">61-70</td>
+<td nowrap align="center">71-80</td>
+<td nowrap align="center">81-90</td>
+<td nowrap align="left">[mais que 3 meses]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E045" value="0"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="1"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="2"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="3"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="4"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="12-15"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="16-20"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="21-25"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="26-30"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="31-45"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="46-50"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="51-60"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="61-70"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="71-80"></td>
+<td nowrap align="center"><input type="radio" name="E045" value="81-90"></td>
+<td nowrap align="left"><input type="radio" name="E045" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+3. 
+(E028) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... saiu do emprego em março ... abstinente do alcool a <u>quase 04 meses</u>, fazendo uso de fluoxetina ... próxima consulta marcada para dia 25/02 ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>meses</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">1</td>
+<td nowrap align="center">2</td>
+<td nowrap align="center">3</td>
+<td nowrap align="center">4</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E028" value="1"></td>
+<td nowrap align="center"><input type="radio" name="E028" value="2"></td>
+<td nowrap align="center"><input type="radio" name="E028" value="3"></td>
+<td nowrap align="center"><input type="radio" name="E028" value="4"></td>
+<td nowrap align="center"><input type="radio" name="E028" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E028" value="6"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+4. 
+(E106) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... exames laboratoriais solicitados em Abril ... não está conseguindo dormir bem há <u>meses</u> ... está há cerca de 15 dias sem as medicações ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>meses</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">0</td>
+<td nowrap align="center">1</td>
+<td nowrap align="center">2</td>
+<td nowrap align="center">3</td>
+<td nowrap align="center">4</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12</td>
+<td nowrap align="center">13</td>
+<td nowrap align="center">14</td>
+<td nowrap align="center">15</td>
+<td nowrap align="center">16</td>
+<td nowrap align="center">17</td>
+<td nowrap align="center">18</td>
+<td nowrap align="center">19</td>
+<td nowrap align="center">20</td>
+<td nowrap align="center">21</td>
+<td nowrap align="center">22</td>
+<td nowrap align="center">23</td>
+<td nowrap align="center">24</td>
+<td nowrap align="left">[mais que 2 anos]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E106" value="0"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="1"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="2"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="3"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="4"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="12"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="13"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="14"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="15"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="16"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="17"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="18"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="19"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="20"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="21"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="22"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="23"></td>
+<td nowrap align="center"><input type="radio" name="E106" value="24"></td>
+<td nowrap align="left"><input type="radio" name="E106" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+5. 
+(E120) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... refere episódio depressivo há 2 anos ... tratada com fluoxetina, por <u>alguns meses</u>, com grande melhora ... com piora neste ano - refere uso de óculos ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>meses</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">0</td>
+<td nowrap align="center">1</td>
+<td nowrap align="center">2</td>
+<td nowrap align="center">3</td>
+<td nowrap align="center">4</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12-18</td>
+<td nowrap align="center">19-24</td>
+<td nowrap align="center">25-30</td>
+<td nowrap align="center">31-36</td>
+<td nowrap align="left">[mais que 3 anos]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E120" value="0"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="1"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="2"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="3"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="4"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="12-18"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="19-24"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="25-30"></td>
+<td nowrap align="center"><input type="radio" name="E120" value="31-36"></td>
+<td nowrap align="left"><input type="radio" name="E120" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+6. 
+(E124) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... prescrito vastatina 20mg, sustrate 10 12/12h, arimidex 1mg ... dor na planta do pé E há <u>algumas semanas</u> ... com piora após andar muito ontem - ainda com dor no ombro ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>semanas</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">0</td>
+<td nowrap align="center">1</td>
+<td nowrap align="center">2</td>
+<td nowrap align="center">3</td>
+<td nowrap align="center">4</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10-12</td>
+<td nowrap align="center">13-15</td>
+<td nowrap align="center">16-18</td>
+<td nowrap align="center">19-21</td>
+<td nowrap align="center">22-25</td>
+<td nowrap align="left">[mais que 6 meses]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E124" value="0"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="1"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="2"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="3"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="4"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="10-12"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="13-15"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="16-18"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="19-21"></td>
+<td nowrap align="center"><input type="radio" name="E124" value="22-25"></td>
+<td nowrap align="left"><input type="radio" name="E124" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+7. 
+(E044) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... os sintomas começaram em abril deste ano e não faz ligação com ... paciente refere que há <u>cerca de 10 anos</u> teve um episódio depressivo ... durante um período de 6 meses ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>anos</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="right">[menos que 5 anos]</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12</td>
+<td nowrap align="center">13</td>
+<td nowrap align="center">14</td>
+<td nowrap align="center">15</td>
+<td nowrap align="left">[mais que 15 anos]</td>
+</tr>
+<tr>
+<td nowrap align="right"><input type="radio" name="E044" value="-1"></td>
+<td nowrap align="center"><input type="radio" name="E044" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E044" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E044" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E044" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E044" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E044" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E044" value="12"></td>
+<td nowrap align="center"><input type="radio" name="E044" value="13"></td>
+<td nowrap align="center"><input type="radio" name="E044" value="14"></td>
+<td nowrap align="center"><input type="radio" name="E044" value="15"></td>
+<td nowrap align="left"><input type="radio" name="E044" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+8. 
+(E114) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... refere estar acima do peso há 5 anos ... teve dor precordial forte há <u>poucos meses</u>, ansiedade, dorme bem ... refere dor na coluna desde ontem - fez uso de dorflex ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>meses</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">0</td>
+<td nowrap align="center">1</td>
+<td nowrap align="center">2</td>
+<td nowrap align="center">3</td>
+<td nowrap align="center">4</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12-18</td>
+<td nowrap align="center">19-24</td>
+<td nowrap align="center">25-30</td>
+<td nowrap align="center">31-36</td>
+<td nowrap align="left">[mais que 3 anos]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E114" value="0"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="1"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="2"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="3"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="4"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="12-18"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="19-24"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="25-30"></td>
+<td nowrap align="center"><input type="radio" name="E114" value="31-36"></td>
+<td nowrap align="left"><input type="radio" name="E114" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+9. 
+(E023) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... está em uso desde maio do ano passado ... conseguiu ficar <u>mais de dois meses</u> sem medicação ... mais 90 dias em perícia por avaliação ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>semanas</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12</td>
+<td nowrap align="center">13</td>
+<td nowrap align="center">14</td>
+<td nowrap align="center">15</td>
+<td nowrap align="center">16</td>
+<td nowrap align="center">17</td>
+<td nowrap align="center">18</td>
+<td nowrap align="center">19</td>
+<td nowrap align="center">20</td>
+<td nowrap align="center">21</td>
+<td nowrap align="center">22</td>
+<td nowrap align="center">23</td>
+<td nowrap align="center">24</td>
+<td nowrap align="left">[mais que 6 meses]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E023" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="12"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="13"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="14"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="15"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="16"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="17"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="18"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="19"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="20"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="21"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="22"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="23"></td>
+<td nowrap align="center"><input type="radio" name="E023" value="24"></td>
+<td nowrap align="left"><input type="radio" name="E023" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+10. 
+(E004) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... último exame realizado em janeiro deste ano ... sintomas retornaram ha <u>mais ou menos 30 dias</u> ... estava sem usar a medicação há 4 meses ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>dias</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="right">[menos que 20 dias]</td>
+<td nowrap align="center">20</td>
+<td nowrap align="center">21</td>
+<td nowrap align="center">22</td>
+<td nowrap align="center">23</td>
+<td nowrap align="center">24</td>
+<td nowrap align="center">25</td>
+<td nowrap align="center">26</td>
+<td nowrap align="center">27</td>
+<td nowrap align="center">28</td>
+<td nowrap align="center">29</td>
+<td nowrap align="center">30</td>
+<td nowrap align="center">31</td>
+<td nowrap align="center">32</td>
+<td nowrap align="center">33</td>
+<td nowrap align="center">34</td>
+<td nowrap align="center">35</td>
+<td nowrap align="center">36</td>
+<td nowrap align="center">37</td>
+<td nowrap align="center">38</td>
+<td nowrap align="center">39</td>
+<td nowrap align="center">40</td>
+<td nowrap align="left">[mais que 40 dias]</td>
+</tr>
+<tr>
+<td nowrap align="right"><input type="radio" name="E004" value="-1"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="20"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="21"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="22"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="23"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="24"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="25"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="26"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="27"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="28"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="29"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="30"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="31"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="32"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="33"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="34"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="35"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="36"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="37"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="38"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="39"></td>
+<td nowrap align="center"><input type="radio" name="E004" value="40"></td>
+<td nowrap align="left"><input type="radio" name="E004" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+11. 
+(E047) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... paciente relata que em Março foi submetida à cirurgia ... mas <u>menos de 30 dias</u> após voltou a sentir dor ... está há 1 mês sem tomar Levotiroxina ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>dias</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="right">[menos que 15 dias]</td>
+<td nowrap align="center">15</td>
+<td nowrap align="center">16</td>
+<td nowrap align="center">17</td>
+<td nowrap align="center">18</td>
+<td nowrap align="center">19</td>
+<td nowrap align="center">20</td>
+<td nowrap align="center">21</td>
+<td nowrap align="center">22</td>
+<td nowrap align="center">23</td>
+<td nowrap align="center">24</td>
+<td nowrap align="center">25</td>
+<td nowrap align="center">26</td>
+<td nowrap align="center">27</td>
+<td nowrap align="center">28</td>
+<td nowrap align="center">29</td>
+<td nowrap align="center">30</td>
+</tr>
+<tr>
+<td nowrap align="right"><input type="radio" name="E047" value="-1"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="15"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="16"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="17"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="18"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="19"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="20"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="21"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="22"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="23"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="24"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="25"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="26"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="27"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="28"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="29"></td>
+<td nowrap align="center"><input type="radio" name="E047" value="30"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+12. 
+(E034) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... DUM - 12/06/2012 - faz uso de ACO ... cauterização de ferida há <u>mais de 10 anos</u> ... menarca aos 14 anos ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>anos</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12</td>
+<td nowrap align="center">13</td>
+<td nowrap align="center">14</td>
+<td nowrap align="center">15</td>
+<td nowrap align="center">16</td>
+<td nowrap align="center">17</td>
+<td nowrap align="center">18-20</td>
+<td nowrap align="center">21-25</td>
+<td nowrap align="left">[mais que 25 anos]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E034" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E034" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E034" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E034" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E034" value="12"></td>
+<td nowrap align="center"><input type="radio" name="E034" value="13"></td>
+<td nowrap align="center"><input type="radio" name="E034" value="14"></td>
+<td nowrap align="center"><input type="radio" name="E034" value="15"></td>
+<td nowrap align="center"><input type="radio" name="E034" value="16"></td>
+<td nowrap align="center"><input type="radio" name="E034" value="17"></td>
+<td nowrap align="center"><input type="radio" name="E034" value="18-20"></td>
+<td nowrap align="center"><input type="radio" name="E034" value="21-25"></td>
+<td nowrap align="left"><input type="radio" name="E034" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+13. 
+(E079) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... tratamento ambulatorial há 3 anos em uso de fluoxetina ... iniciou com 20mg/dia e há <u>+- 18 meses</u> já utiliza 60mg/dia ... novo encaminhamento do dia 18/08/2013 quando falou ao médico que ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>meses</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="right">[menos que 1 ano]</td>
+<td nowrap align="center">12</td>
+<td nowrap align="center">13</td>
+<td nowrap align="center">14</td>
+<td nowrap align="center">15</td>
+<td nowrap align="center">16</td>
+<td nowrap align="center">17</td>
+<td nowrap align="center">19</td>
+<td nowrap align="center">20</td>
+<td nowrap align="center">21</td>
+<td nowrap align="center">22</td>
+<td nowrap align="center">23</td>
+<td nowrap align="center">24</td>
+<td nowrap align="left">[mais que 2 anos]</td>
+</tr>
+<tr>
+<td nowrap align="right"><input type="radio" name="E079" value="-1"></td>
+<td nowrap align="center"><input type="radio" name="E079" value="12"></td>
+<td nowrap align="center"><input type="radio" name="E079" value="13"></td>
+<td nowrap align="center"><input type="radio" name="E079" value="14"></td>
+<td nowrap align="center"><input type="radio" name="E079" value="15"></td>
+<td nowrap align="center"><input type="radio" name="E079" value="16"></td>
+<td nowrap align="center"><input type="radio" name="E079" value="17"></td>
+<td nowrap align="center"><input type="radio" name="E079" value="19"></td>
+<td nowrap align="center"><input type="radio" name="E079" value="20"></td>
+<td nowrap align="center"><input type="radio" name="E079" value="21"></td>
+<td nowrap align="center"><input type="radio" name="E079" value="22"></td>
+<td nowrap align="center"><input type="radio" name="E079" value="23"></td>
+<td nowrap align="center"><input type="radio" name="E079" value="24"></td>
+<td nowrap align="left"><input type="radio" name="E079" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+14. 
+(E014) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... cirurgia ginecológica há mais de 2 anos ... mais <u>recentemente</u>, caso de óbito na família ... nega outros sintomas ...</b>
+</td></tr>
+<tr><td id="question">
+Qual o período que você considera ser a quantidade de tempo mais adequada desde quando o evento associado à expressão sublinhada vem ocorrendo?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">[alguns dias]</td>
+<td nowrap align="center">[muitos dias]</td>
+<td nowrap align="center">[algumas semanas]</td>
+<td nowrap align="center">[muitas semanas]</td>
+<td nowrap align="center">[alguns meses]</td>
+<td nowrap align="center">[muitos meses]</td>
+<td nowrap align="center"> [alguns anos]</td>
+<td nowrap align="center">[muitos anos]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E014" value="[alguns dias]"></td>
+<td nowrap align="center"><input type="radio" name="E014" value="[muitos dias]"></td>
+<td nowrap align="center"><input type="radio" name="E014" value="[algumas semanas]"></td>
+<td nowrap align="center"><input type="radio" name="E014" value="[muitas semanas]"></td>
+<td nowrap align="center"><input type="radio" name="E014" value="[alguns meses]"></td>
+<td nowrap align="center"><input type="radio" name="E014" value="[muitos meses]"></td>
+<td nowrap align="center"><input type="radio" name="E014" value=" [alguns anos]"></td>
+<td nowrap align="center"><input type="radio" name="E014" value="[muitos anos]"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+15. 
+(E100) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... consulta amanhã com psicóloga ... há <u>cerca de 4 semanas</u> foi demitido do trabalho ... estava há 4 meses trabalhando ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>dias</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="right">[menos que 20 dias]</td>
+<td nowrap align="center">20</td>
+<td nowrap align="center">21</td>
+<td nowrap align="center">22</td>
+<td nowrap align="center">23</td>
+<td nowrap align="center">24</td>
+<td nowrap align="center">25</td>
+<td nowrap align="center">26</td>
+<td nowrap align="center">27</td>
+<td nowrap align="center">28</td>
+<td nowrap align="center">29</td>
+<td nowrap align="center">30</td>
+<td nowrap align="center">31</td>
+<td nowrap align="center">32</td>
+<td nowrap align="center">33</td>
+<td nowrap align="center">34</td>
+<td nowrap align="center">35</td>
+<td nowrap align="center">36</td>
+<td nowrap align="center">37</td>
+<td nowrap align="center">38</td>
+<td nowrap align="center">39</td>
+<td nowrap align="center">40</td>
+<td nowrap align="left">[mais que 40 dias]</td>
+</tr>
+<tr>
+<td nowrap align="right"><input type="radio" name="E100" value="-1"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="20"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="21"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="22"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="23"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="24"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="25"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="26"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="27"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="28"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="29"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="30"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="31"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="32"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="33"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="34"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="35"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="36"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="37"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="38"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="39"></td>
+<td nowrap align="center"><input type="radio" name="E100" value="40"></td>
+<td nowrap align="left"><input type="radio" name="E100" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+16. 
+(E029) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... a partir da última semana de fevereiro que estava com alteração ... diz que ficava <u>muitos dias</u> sem dormir e que ... ficou internado por quase 1 mês ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>dias</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">0</td>
+<td nowrap align="center">1</td>
+<td nowrap align="center">2</td>
+<td nowrap align="center">3</td>
+<td nowrap align="center">4</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12-15</td>
+<td nowrap align="center">16-20</td>
+<td nowrap align="center">21-25</td>
+<td nowrap align="center">26-30</td>
+<td nowrap align="center">31-45</td>
+<td nowrap align="center">46-50</td>
+<td nowrap align="center">51-60</td>
+<td nowrap align="center">61-70</td>
+<td nowrap align="center">71-80</td>
+<td nowrap align="center">81-90</td>
+<td nowrap align="left">[mais que 3 meses]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E029" value="0"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="1"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="2"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="3"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="4"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="12-15"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="16-20"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="21-25"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="26-30"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="31-45"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="46-50"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="51-60"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="61-70"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="71-80"></td>
+<td nowrap align="center"><input type="radio" name="E029" value="81-90"></td>
+<td nowrap align="left"><input type="radio" name="E029" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+17. 
+(E025) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... parou de menstruar há 4 anos ... mamografia há <u>menos de 1 ano</u> - não trouxe o resultado ... sem uso TRH ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>meses</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">1</td>
+<td nowrap align="center">2</td>
+<td nowrap align="center">3</td>
+<td nowrap align="center">4</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12</td>
+<td nowrap align="center">13</td>
+<td nowrap align="center">14</td>
+<td nowrap align="center">15</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E025" value="1"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="2"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="3"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="4"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="12"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="13"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="14"></td>
+<td nowrap align="center"><input type="radio" name="E025" value="15"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+18. 
+(E039) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... diagnosticado em 2005 ... há <u>vários anos</u>, sem avaliação do endocrinologista ... trouxe exames (09/06/2012) ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>anos</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">0</td>
+<td nowrap align="center">1</td>
+<td nowrap align="center">2</td>
+<td nowrap align="center">3</td>
+<td nowrap align="center">4</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10-12</td>
+<td nowrap align="center">13-15</td>
+<td nowrap align="center">16-18</td>
+<td nowrap align="center">19-21</td>
+<td nowrap align="center">22-25</td>
+<td nowrap align="left">[mais que 25 anos]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E039" value="0"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="1"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="2"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="3"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="4"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="10-12"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="13-15"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="16-18"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="19-21"></td>
+<td nowrap align="center"><input type="radio" name="E039" value="22-25"></td>
+<td nowrap align="left"><input type="radio" name="E039" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+19. 
+(E009) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... tratamento psicoterápico, há 2 anos ... <u>agora</u>, fazendo quinzenalmente ... estava indo 1 vez por semana ...</b>
+</td></tr>
+<tr><td id="question">
+Qual o período que você considera ser a quantidade de tempo mais adequada desde quando o evento associado à expressão sublinhada vem ocorrendo?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">[alguns dias]</td>
+<td nowrap align="center">[muitos dias]</td>
+<td nowrap align="center">[algumas semanas]</td>
+<td nowrap align="center">[muitas semanas]</td>
+<td nowrap align="center">[alguns meses]</td>
+<td nowrap align="center">[muitos meses]</td>
+<td nowrap align="center"> [alguns anos]</td>
+<td nowrap align="center">[muitos anos]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E009" value="[alguns dias]"></td>
+<td nowrap align="center"><input type="radio" name="E009" value="[muitos dias]"></td>
+<td nowrap align="center"><input type="radio" name="E009" value="[algumas semanas]"></td>
+<td nowrap align="center"><input type="radio" name="E009" value="[muitas semanas]"></td>
+<td nowrap align="center"><input type="radio" name="E009" value="[alguns meses]"></td>
+<td nowrap align="center"><input type="radio" name="E009" value="[muitos meses]"></td>
+<td nowrap align="center"><input type="radio" name="E009" value=" [alguns anos]"></td>
+<td nowrap align="center"><input type="radio" name="E009" value="[muitos anos]"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+20. 
+(E021) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... tomando só um nalapril de 12/12hs ... dor em ombro esquerdo  ha <u>mais de 30 dias</u> ... apresentando dificuldade principalmente à esquerda, há cerca de 6 meses ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>dias</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">28</td>
+<td nowrap align="center">29</td>
+<td nowrap align="center">30</td>
+<td nowrap align="center">31</td>
+<td nowrap align="center">32</td>
+<td nowrap align="center">33</td>
+<td nowrap align="center">34</td>
+<td nowrap align="center">35</td>
+<td nowrap align="center">36</td>
+<td nowrap align="center">37</td>
+<td nowrap align="center">38</td>
+<td nowrap align="center">39</td>
+<td nowrap align="center">40</td>
+<td nowrap align="center">41-45</td>
+<td nowrap align="center">46-50</td>
+<td nowrap align="center">51-55</td>
+<td nowrap align="center">56-60</td>
+<td nowrap align="left">[mais que 2 meses]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E021" value="28"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="29"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="30"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="31"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="32"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="33"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="34"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="35"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="36"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="37"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="38"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="39"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="40"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="41-45"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="46-50"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="51-55"></td>
+<td nowrap align="center"><input type="radio" name="E021" value="56-60"></td>
+<td nowrap align="left"><input type="radio" name="E021" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+21. 
+(E073) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... overdose de medicamentos ha 6 anos ... tem recebido tratamento há <u>mais de 5 anos</u> e que alguns sintomas têm melhorado ... perda de familiares próximos recentemente ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>anos</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">3</td>
+<td nowrap align="center">4</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12</td>
+<td nowrap align="center">13</td>
+<td nowrap align="center">14</td>
+<td nowrap align="center">15</td>
+<td nowrap align="left">[mais que 15 anos]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E073" value="3"></td>
+<td nowrap align="center"><input type="radio" name="E073" value="4"></td>
+<td nowrap align="center"><input type="radio" name="E073" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E073" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E073" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E073" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E073" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E073" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E073" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E073" value="12"></td>
+<td nowrap align="center"><input type="radio" name="E073" value="13"></td>
+<td nowrap align="center"><input type="radio" name="E073" value="14"></td>
+<td nowrap align="center"><input type="radio" name="E073" value="15"></td>
+<td nowrap align="left"><input type="radio" name="E073" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+22. 
+(E058) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... último preventivo em 2012 ... amamentou por até <u>quase 3 anos</u> - DUM: maio/2013 ... nega fatores de risco ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>meses</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="right">[menos que 1 ano e meio]</td>
+<td nowrap align="center">18</td>
+<td nowrap align="center">19</td>
+<td nowrap align="center">20</td>
+<td nowrap align="center">21</td>
+<td nowrap align="center">22</td>
+<td nowrap align="center">23</td>
+<td nowrap align="center">24</td>
+<td nowrap align="center">25</td>
+<td nowrap align="center">26</td>
+<td nowrap align="center">27</td>
+<td nowrap align="center">28</td>
+<td nowrap align="center">29</td>
+<td nowrap align="center">30</td>
+<td nowrap align="center">31</td>
+<td nowrap align="center">32</td>
+<td nowrap align="center">33</td>
+<td nowrap align="center">34</td>
+<td nowrap align="center">35</td>
+<td nowrap align="center">36</td>
+</tr>
+<tr>
+<td nowrap align="right"><input type="radio" name="E058" value="-1"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="18"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="19"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="20"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="21"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="22"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="23"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="24"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="25"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="26"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="27"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="28"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="29"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="30"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="31"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="32"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="33"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="34"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="35"></td>
+<td nowrap align="center"><input type="radio" name="E058" value="36"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+23. 
+(E085) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... uso de colar cervical em 11/07/2007, sangramento irregular ... está sem medicação há <u>mais de uma semana</u> ... refere medo de ficar sozinha ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>dias</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12</td>
+<td nowrap align="center">13</td>
+<td nowrap align="center">14</td>
+<td nowrap align="center">15-20</td>
+<td nowrap align="center">21-25</td>
+<td nowrap align="center">26-30</td>
+<td nowrap align="left">[mais que 1 mês]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E085" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E085" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E085" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E085" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E085" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E085" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E085" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E085" value="12"></td>
+<td nowrap align="center"><input type="radio" name="E085" value="13"></td>
+<td nowrap align="center"><input type="radio" name="E085" value="14"></td>
+<td nowrap align="center"><input type="radio" name="E085" value="15-20"></td>
+<td nowrap align="center"><input type="radio" name="E085" value="21-25"></td>
+<td nowrap align="center"><input type="radio" name="E085" value="26-30"></td>
+<td nowrap align="left"><input type="radio" name="E085" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+24. 
+(E102) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... preventivo pela ultima vez em 2010 ... relata ter uma menstruação regular, durando <u>cerca de uma semana</u> ... DUM 11/12/2012 - utiliza o DIU de cobre ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>dias</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">1</td>
+<td nowrap align="center">2</td>
+<td nowrap align="center">3</td>
+<td nowrap align="center">4</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12</td>
+<td nowrap align="center">13</td>
+<td nowrap align="center">14</td>
+<td nowrap align="center">15</td>
+<td nowrap align="left">[mais que 15 dias]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E102" value="1"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="2"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="3"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="4"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="12"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="13"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="14"></td>
+<td nowrap align="center"><input type="radio" name="E102" value="15"></td>
+<td nowrap align="left"><input type="radio" name="E102" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="10" cellspacing="0">
+<tr><td id="question">
+25. 
+(E067) 
+Em relação às sentenças a seguir:
+</td></tr>
+<tr><td id="sentence">
+... paciente reclama que só conseguiu consulta em março ... dor em coxa esquerda há <u>alguns dias</u> e dor nas costas ... consulta com infectologista em 22 de agosto ...</b>
+</td></tr>
+<tr><td id="question">
+Quantos(as) "<b><u>dias</u></b>" que você considera ser a quantidade de tempo mais adequada para a expressão sublinhada?
+</td></tr>
+<tr><td>
+<table id="answer" cellspacing="3" cellpadding="3">
+<tr>
+<td nowrap align="center">0</td>
+<td nowrap align="center">1</td>
+<td nowrap align="center">2</td>
+<td nowrap align="center">3</td>
+<td nowrap align="center">4</td>
+<td nowrap align="center">5</td>
+<td nowrap align="center">6</td>
+<td nowrap align="center">7</td>
+<td nowrap align="center">8</td>
+<td nowrap align="center">9</td>
+<td nowrap align="center">10</td>
+<td nowrap align="center">11</td>
+<td nowrap align="center">12-15</td>
+<td nowrap align="center">16-20</td>
+<td nowrap align="center">21-25</td>
+<td nowrap align="center">26-30</td>
+<td nowrap align="center">31-45</td>
+<td nowrap align="center">46-50</td>
+<td nowrap align="center">51-60</td>
+<td nowrap align="center">61-70</td>
+<td nowrap align="center">71-80</td>
+<td nowrap align="center">81-90</td>
+<td nowrap align="left">[mais que 3 meses]</td>
+</tr>
+<tr>
+<td nowrap align="center"><input type="radio" name="E067" value="0"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="1"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="2"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="3"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="4"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="5"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="6"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="7"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="8"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="9"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="10"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="11"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="12-15"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="16-20"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="21-25"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="26-30"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="31-45"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="46-50"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="51-60"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="61-70"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="71-80"></td>
+<td nowrap align="center"><input type="radio" name="E067" value="81-90"></td>
+<td nowrap align="left"><input type="radio" name="E067" value="999"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+<tr><td><input id="submit" type="submit" value=" Finalizar... "></td></tr>
+</table>
+</form>
+</body>
+</html>
