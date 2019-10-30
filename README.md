@@ -5,7 +5,7 @@ Any questions about this research?
 Contact the author: hegler [{A_T}] gmail [{D_O_T}] com
 
 ## Citation
-See the following paper:
+See the following publication:
 https://link.springer.com/article/10.1007/s10115-019-01338-1
 
 ```
